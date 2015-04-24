@@ -1,0 +1,37 @@
+{
+  "name": "shmilcute",
+  "version": "1.0.2",
+  "description": "Turn any folder on your computer into a cute file browser, available on the local network.",
+  "main": "cute-files.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cute",
+    "file",
+    "browser",
+    "files"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shmuelmishali/cute-files"
+  },
+  "author": {
+    "name": "Shmuel Mishali",
+    "email": "shmil@youcc.net"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.8.0",
+    "content-disposition": "^0.3.0",
+    "express": "^4.12.3"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "cute-files": "cute-files.js"
+  },
+  "readmeFilename": "Readme.md",
+  "engines": {
+    "node": ">= 0.10.x"
+  }
+}
